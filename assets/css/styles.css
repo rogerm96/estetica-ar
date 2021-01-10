@@ -1,7 +1,7 @@
 /*===== GOOGLE FONTS 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 =====*/
-@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Indie+Flower:wght@400;500;600&display=swap');
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -16,12 +16,12 @@
   --container-color: #FFFFFF;
 
   /*========== Font and typography ==========*/
-  --body-font: 'Hachi Maru Pop', sans-serif;
-  --biggest-font-size: 2.25rem;
+  --body-font: 'Indie Flower','Hachi Maru Pop', sans-serif;
+  --biggest-font-size: 2.50rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
+  --normal-font-size: 1.2rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
@@ -45,12 +45,12 @@
 @media screen and (min-width: 768px){
   :root{
     --biggest-font-size: 4rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
+    --h1-font-size: 2.20rem;
+    --h2-font-size: 1.4rem;
+    --h3-font-size: 1.3rem;
+    --normal-font-size: 1.3rem;
+    --small-font-size: .995rem;
+    --smaller-font-size: .953rem;
   }
 }
 
@@ -543,7 +543,7 @@ img{
   }
 
   .menu__container{
-    grid-template-columns: repeat(3, 210px);
+    grid-template-columns: repeat(4, 210px);
     column-gap: 4rem;
   }
   .menu__content{
